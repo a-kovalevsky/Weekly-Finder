@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         let capitalizeWeekday = weekday.capitalized
         resultLabel.text = "\(capitalizeWeekday)"
         }
-    
+    //view
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
